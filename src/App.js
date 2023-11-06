@@ -38,7 +38,7 @@ function App() {
   async function fetchUserData() {
     try {
       if (isConnected) {
-        const res = await axios.get(`https://scarlet-gazelle-hose.cyclic.app/getNameAndBalance`, {
+        const res = await axios.get(`https://puzzled-tick-wig.cyclic.app/getNameAndBalance`, {
           params: { userAddress: address },
         });
 
